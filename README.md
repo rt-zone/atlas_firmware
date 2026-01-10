@@ -1,9 +1,10 @@
 # Atlas Firmware
-This repository contains the **custom MicroPython firmware files** for the Atlas robot.
+This repository contains the **custom MicroPython firmware and its files** for the Atlas robot.
 
 It includes:
 - Python modules installed into the firmware `modules/` directory
-- Custom C module for the display (`cmodules/`)
+- Custom C module for the encoder installed into the  `cmodules/` directory
+- Atlas firmware
 
 ## Firmware Versioning
 The firmware version string is defined in the MicroPython build system.
