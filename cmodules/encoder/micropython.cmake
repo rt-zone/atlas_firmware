@@ -12,7 +12,6 @@ pico_generate_pio_header(usermod_${MOD_NAME} ${CMAKE_CURRENT_LIST_DIR}/encoder/e
 target_include_directories(usermod_${MOD_NAME} INTERFACE
     ${CMAKE_CURRENT_LIST_DIR}
     ${CMAKE_CURRENT_LIST_DIR}/encoder/
-    ${CMAKE_CURRENT_LIST_DIR}/../shared
 )
 
 target_compile_definitions(usermod_${MOD_NAME} INTERFACE
